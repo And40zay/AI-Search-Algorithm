@@ -1,0 +1,16 @@
+{
+    "java.jdt.ls.vmargs": "-XX:+UseG1GC -XX:+UseStringDeduplication -Xmx1g -Xms256m",
+    "java.autobuild.enabled": false,
+    "files.watcherExclude": {
+        "**/target/**": true,
+        "**/bin/**": true,
+        "**/build/**": true,
+        "**/.git/**": true
+    },
+    "window.titleBarStyle": "custom",
+    "editor.minimap.enabled": false,
+    "editor.hover.enabled": false,
+    "problems.autoReveal": false,
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin"
+}
